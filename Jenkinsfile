@@ -11,7 +11,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/AdityaK05/gradle-pipeline-app.git'
+                git branch: 'main', url: 'https://github.com/aaradhya177/maven-pipeline.git'
             }
         }
 
